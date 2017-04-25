@@ -27,12 +27,15 @@ public class GradientContainerView: UIView {
     gradientView.translatesAutoresizingMaskIntoConstraints = false
     addSubview(gradientView)
     
-    let top = gradientView.topAnchor.constraint(equalTo: topAnchor)
-    let bottom = gradientView.bottomAnchor.constraint(equalTo: bottomAnchor)
-    let leading = gradientView.leadingAnchor.constraint(equalTo: leadingAnchor)
-    let trailing = gradientView.trailingAnchor.constraint(equalTo: trailingAnchor)
+    installLayout(forEdge: .top)
+    installLayout(forEdge: .bottom)
+    installLayout(forEdge: .leading)
+    installLayout(forEdge: .trailing)
+  }
     
-    NSLayoutConstraint.activate([top, bottom, leading, trailing])
+  fileprivate func installLayout(forEdge edge: NSLayoutAttribute) {
+    let constraint = NSLayoutConstraint(item: gradientView, attribute: edge, relatedBy: .equal, toItem: self, attribute: edge, multiplier: 1.0, constant: 0)
+    addConstraint(constraint)
   }
 }
 

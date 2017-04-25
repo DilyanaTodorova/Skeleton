@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AF491E0462211A40E05231BCB85884 /* GradientContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00E01BDA2BB77DEEA89C8FD259E4D57 /* GradientContainerView.swift */; };
 		2D27AC1E40C7FA2F659C02811111F8F1 /* Pods-Skeleton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEE2A2994937B09AFD34A1F36CE1FA2 /* Pods-Skeleton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40E81071EB58464C485A8496B5D9A8F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		445993519061C328CD4B0CC4964982CE /* Pods-Skeleton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5041DB882C7B36E18C93B8DCB966C9D /* Pods-Skeleton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F095A64C31F8DAF2EF11F3C066529F0 /* GradientsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0095AEA73A21B270B4D538A4A5C5566 /* GradientsOwner.swift */; };
-		51B4AF58DE8FB74F9E5A9E52DD380637 /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A514C3CD26BEE4783B4AF3E74066046 /* GradientPoint.swift */; };
-		6630BCF02B86085DCB8ADE44AB66929C /* GradientTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE55539A187909D0649AA4AC19E451 /* GradientTransition.swift */; };
-		679208298B8B9E8DB61E683432165B00 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2AC2BE31F713587DCDD347398B6BDE /* Direction.swift */; };
-		95E64F6C840A39A9AC6D182020984D10 /* Skeleton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A391E9C28F239031700DCAEEE229CEAA /* Skeleton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572DF8D2DE0C2CC9FA6C40DE072CF2C6 /* CAGradientLayer+Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A42500AA26D2574C904E5743077DB6B /* CAGradientLayer+Slide.swift */; };
+		6B014D7C2EE9073548DB7FFC9DD7DAC8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9161A99AF4BC346EB7D3374CE2D4B652 /* GradientView.swift */; };
+		7AB1116E50FAAE8C97BEEF3CB4E2AAAE /* Skeleton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 217A7B624F64F8BD4EA5F73DFCD58137 /* Skeleton-dummy.m */; };
+		81146C4D8775B1F7BDE8385195880EA8 /* GradientsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450D8ABF3DBA5F02628F1ED9EB8B79D /* GradientsOwner.swift */; };
+		936DC7F33BC7DE3AD8874CD659D64EA7 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C25435D043C7343EFAB57C618C2A20E /* Direction.swift */; };
+		95E64F6C840A39A9AC6D182020984D10 /* Skeleton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8EC8CB13900506887C103F8E26A42D7 /* Skeleton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8DA6A6051E8637866C3CAF5E0EB4289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		AB3E9D6C1E56731A00071992 /* GradientContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E9D6A1E5672CE00071992 /* GradientContainerView.swift */; };
-		B6ABB6BD10C2214953F65A3ECE7CA442 /* Skeleton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F384730691A7872DB4993F314ED056D /* Skeleton-dummy.m */; };
-		C4D154B0EBC630F57E122D42750D3C8D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B25868001233E382C67F2FD289C5227 /* GradientView.swift */; };
 		CE3291893C5380DB1727E61D9CEB3BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DFFDB9A1DEDF7920258035AA834EA54D /* GradientTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D167142B822755BFCA9AC30F982982 /* GradientTransition.swift */; };
 		EA4DF7587306347309AFEC785AA3DA21 /* Pods-Skeleton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A4D90A34F6B9E3C6C1CA9AA848274 /* Pods-Skeleton_Example-dummy.m */; };
+		F5ABDE31D319DC818DBC80147CC52D4A /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66210379C7A83AC3B47802B50A1BBE9 /* GradientPoint.swift */; };
 		F77FBAD1E31EC20B2A693D441FA9F48F /* Pods-Skeleton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216885FB49C9D0B680E55A0BBA87BE0 /* Pods-Skeleton_Tests-dummy.m */; };
-		FDB1210602F81F1451CB5FEC4CD1893C /* CAGradientLayer+Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29EC62F738EB115C20B07A299D547D6 /* CAGradientLayer+Slide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,41 +36,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B25868001233E382C67F2FD289C5227 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		0FFE55539A187909D0649AA4AC19E451 /* GradientTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientTransition.swift; sourceTree = "<group>"; };
+		07C16FD855A4D439E5FB185F577AF24C /* Skeleton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Skeleton.xcconfig; sourceTree = "<group>"; };
+		11C487F275FFD43CCF7C978394CC7E79 /* Skeleton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-prefix.pch"; sourceTree = "<group>"; };
 		1216885FB49C9D0B680E55A0BBA87BE0 /* Pods-Skeleton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Skeleton_Tests-dummy.m"; sourceTree = "<group>"; };
 		1D4044163064B080CE478914F1D675FA /* Pods-Skeleton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1DCA9A73DD6CA82F06A4903DB8F67926 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE8C1AFC26B324CE72979968109AE35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E77F905B6922D959B8A87C94D929B78 /* Pods-Skeleton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Skeleton_Example.modulemap"; sourceTree = "<group>"; };
+		1E77F905B6922D959B8A87C94D929B78 /* Pods-Skeleton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Skeleton_Example.modulemap"; sourceTree = "<group>"; };
+		217A7B624F64F8BD4EA5F73DFCD58137 /* Skeleton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skeleton-dummy.m"; sourceTree = "<group>"; };
 		27A024B7F8287756DB9DF1570EB0F52A /* Pods-Skeleton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3B5A4D90A34F6B9E3C6C1CA9AA848274 /* Pods-Skeleton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Skeleton_Example-dummy.m"; sourceTree = "<group>"; };
-		4668C68A8EF44DA310A70B1EF7D33868 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49B5FA02504BB268101D6A93414D18CF /* Pods_Skeleton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skeleton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A514C3CD26BEE4783B4AF3E74066046 /* GradientPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientPoint.swift; sourceTree = "<group>"; };
-		6D2AC2BE31F713587DCDD347398B6BDE /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		49B5FA02504BB268101D6A93414D18CF /* Pods_Skeleton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Skeleton_Example.framework; path = "Pods-Skeleton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E810A9B10EFC8BC548D2713CDF8751B /* Pods-Skeleton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		74C8EC18E318BCC5833960CE0ADD7C9C /* Pods-Skeleton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Tests-resources.sh"; sourceTree = "<group>"; };
+		7A42500AA26D2574C904E5743077DB6B /* CAGradientLayer+Slide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Slide.swift"; sourceTree = "<group>"; };
 		8710D75245569511C5A67402ADDC96AD /* Pods-Skeleton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9161A99AF4BC346EB7D3374CE2D4B652 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		969234BE169F52C785933482A855A0DF /* Pods-Skeleton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9BD68AE3D8DC09FAB3D19F2E486547FD /* Skeleton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Skeleton.modulemap; sourceTree = "<group>"; };
-		9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Skeleton.xcconfig; sourceTree = "<group>"; };
+		9C25435D043C7343EFAB57C618C2A20E /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		9D13DD2CBA2ACBF2B5E098A772387835 /* Pods-Skeleton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skeleton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9EEE2A2994937B09AFD34A1F36CE1FA2 /* Pods-Skeleton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skeleton_Example-umbrella.h"; sourceTree = "<group>"; };
-		9F384730691A7872DB4993F314ED056D /* Skeleton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skeleton-dummy.m"; sourceTree = "<group>"; };
-		A29EC62F738EB115C20B07A299D547D6 /* CAGradientLayer+Slide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Slide.swift"; sourceTree = "<group>"; };
-		A391E9C28F239031700DCAEEE229CEAA /* Skeleton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-umbrella.h"; sourceTree = "<group>"; };
-		AB3E9D6A1E5672CE00071992 /* GradientContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientContainerView.swift; sourceTree = "<group>"; };
+		A8EC8CB13900506887C103F8E26A42D7 /* Skeleton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-umbrella.h"; sourceTree = "<group>"; };
+		B00E01BDA2BB77DEEA89C8FD259E4D57 /* GradientContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientContainerView.swift; sourceTree = "<group>"; };
 		B176B452097CEDD885860FC28DB0FEE6 /* Pods-Skeleton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skeleton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B450D8ABF3DBA5F02628F1ED9EB8B79D /* GradientsOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientsOwner.swift; sourceTree = "<group>"; };
 		C5041DB882C7B36E18C93B8DCB966C9D /* Pods-Skeleton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skeleton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C530131386EC1981E492FD64321D0884 /* Skeleton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Skeleton.modulemap; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0095AEA73A21B270B4D538A4A5C5566 /* GradientsOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientsOwner.swift; sourceTree = "<group>"; };
-		D271F1CF6A70785CCE03B06BC2E93289 /* Pods-Skeleton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Skeleton_Tests.modulemap"; sourceTree = "<group>"; };
-		DDFB8D5A45B020B4D42A445511B3AEA7 /* Skeleton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Skeleton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF56904079D06B6C38CD6AAB51D59DE1 /* Pods_Skeleton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skeleton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D271F1CF6A70785CCE03B06BC2E93289 /* Pods-Skeleton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Skeleton_Tests.modulemap"; sourceTree = "<group>"; };
+		D4D167142B822755BFCA9AC30F982982 /* GradientTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientTransition.swift; sourceTree = "<group>"; };
+		DDFB8D5A45B020B4D42A445511B3AEA7 /* Skeleton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Skeleton.framework; path = Skeleton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF56904079D06B6C38CD6AAB51D59DE1 /* Pods_Skeleton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Skeleton_Tests.framework; path = "Pods-Skeleton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0675B37345C8A8B6DF20BC793A790F7 /* Pods-Skeleton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skeleton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3F903E9F74BCDB2FBDFC7F7B5707010 /* Skeleton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-prefix.pch"; sourceTree = "<group>"; };
 		F5D60BEF9CBB54AAAAB5531E0F0D9EFB /* Pods-Skeleton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F66210379C7A83AC3B47802B50A1BBE9 /* GradientPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientPoint.swift; sourceTree = "<group>"; };
 		F9F7CBD2F5DC89DDE6DBB1878E9DA570 /* Pods-Skeleton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Example-resources.sh"; sourceTree = "<group>"; };
 		FE7BB19BC1952C38D30D32947E048AB2 /* Pods-Skeleton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skeleton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF5CCC5ADC8A2A2940891FA9C0500EED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,9 +107,48 @@
 		24F05E47AD9437F680E5322700D5B639 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FEAEBA3E818343B80372B0FBDE2663B2 /* Skeleton */,
+				35531780512D74B8C67D4348B961C9DE /* Skeleton */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		35531780512D74B8C67D4348B961C9DE /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				6C7BBA0F6A2F555144D34BE13A998DC1 /* Skeleton */,
+				6A07C8212C57509EF780899E4781AC38 /* Support Files */,
+			);
+			name = Skeleton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6A07C8212C57509EF780899E4781AC38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DCA9A73DD6CA82F06A4903DB8F67926 /* Info.plist */,
+				C530131386EC1981E492FD64321D0884 /* Skeleton.modulemap */,
+				07C16FD855A4D439E5FB185F577AF24C /* Skeleton.xcconfig */,
+				217A7B624F64F8BD4EA5F73DFCD58137 /* Skeleton-dummy.m */,
+				11C487F275FFD43CCF7C978394CC7E79 /* Skeleton-prefix.pch */,
+				A8EC8CB13900506887C103F8E26A42D7 /* Skeleton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Skeleton";
+			sourceTree = "<group>";
+		};
+		6C7BBA0F6A2F555144D34BE13A998DC1 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				7A42500AA26D2574C904E5743077DB6B /* CAGradientLayer+Slide.swift */,
+				9C25435D043C7343EFAB57C618C2A20E /* Direction.swift */,
+				B00E01BDA2BB77DEEA89C8FD259E4D57 /* GradientContainerView.swift */,
+				F66210379C7A83AC3B47802B50A1BBE9 /* GradientPoint.swift */,
+				B450D8ABF3DBA5F02628F1ED9EB8B79D /* GradientsOwner.swift */,
+				D4D167142B822755BFCA9AC30F982982 /* GradientTransition.swift */,
+				9161A99AF4BC346EB7D3374CE2D4B652 /* GradientView.swift */,
+			);
+			name = Skeleton;
+			path = Skeleton;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -158,20 +197,6 @@
 			path = "Target Support Files/Pods-Skeleton_Tests";
 			sourceTree = "<group>";
 		};
-		BBA8A2633ED35896DA42B12FFE0C6E8F /* Skeleton */ = {
-			isa = PBXGroup;
-			children = (
-				A29EC62F738EB115C20B07A299D547D6 /* CAGradientLayer+Slide.swift */,
-				6D2AC2BE31F713587DCDD347398B6BDE /* Direction.swift */,
-				0FFE55539A187909D0649AA4AC19E451 /* GradientTransition.swift */,
-				4A514C3CD26BEE4783B4AF3E74066046 /* GradientPoint.swift */,
-				AB3E9D6A1E5672CE00071992 /* GradientContainerView.swift */,
-				0B25868001233E382C67F2FD289C5227 /* GradientView.swift */,
-				D0095AEA73A21B270B4D538A4A5C5566 /* GradientsOwner.swift */,
-			);
-			path = Skeleton;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,30 +231,6 @@
 				DDFB8D5A45B020B4D42A445511B3AEA7 /* Skeleton.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D7648E46266672D83A2693C8C0D408EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4668C68A8EF44DA310A70B1EF7D33868 /* Info.plist */,
-				9BD68AE3D8DC09FAB3D19F2E486547FD /* Skeleton.modulemap */,
-				9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */,
-				9F384730691A7872DB4993F314ED056D /* Skeleton-dummy.m */,
-				F3F903E9F74BCDB2FBDFC7F7B5707010 /* Skeleton-prefix.pch */,
-				A391E9C28F239031700DCAEEE229CEAA /* Skeleton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Skeleton";
-			sourceTree = "<group>";
-		};
-		FEAEBA3E818343B80372B0FBDE2663B2 /* Skeleton */ = {
-			isa = PBXGroup;
-			children = (
-				BBA8A2633ED35896DA42B12FFE0C6E8F /* Skeleton */,
-				D7648E46266672D83A2693C8C0D408EF /* Support Files */,
-			);
-			name = Skeleton;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12A19D459C4C6FA1AF14804FAE2230CA /* Build configuration list for PBXNativeTarget "Skeleton" */;
 			buildPhases = (
-				A7372D74DBAAD854AF9E7AA821400DFF /* Sources */,
+				FF7611EB1AA8E8E2FC2DF03600C6C4FC /* Sources */,
 				420D5E1CD8B94FAEBAFE5870FFC63DB6 /* Frameworks */,
 				3C39F5EA7AD8D216D39E65FA08A8A162 /* Headers */,
 			);
@@ -322,11 +323,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					5ECE0FA14E1E577E0C062F1F41A3E168 = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,18 +360,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7372D74DBAAD854AF9E7AA821400DFF /* Sources */ = {
+		FF7611EB1AA8E8E2FC2DF03600C6C4FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB1210602F81F1451CB5FEC4CD1893C /* CAGradientLayer+Slide.swift in Sources */,
-				679208298B8B9E8DB61E683432165B00 /* Direction.swift in Sources */,
-				AB3E9D6C1E56731A00071992 /* GradientContainerView.swift in Sources */,
-				51B4AF58DE8FB74F9E5A9E52DD380637 /* GradientPoint.swift in Sources */,
-				4F095A64C31F8DAF2EF11F3C066529F0 /* GradientsOwner.swift in Sources */,
-				6630BCF02B86085DCB8ADE44AB66929C /* GradientTransition.swift in Sources */,
-				C4D154B0EBC630F57E122D42750D3C8D /* GradientView.swift in Sources */,
-				B6ABB6BD10C2214953F65A3ECE7CA442 /* Skeleton-dummy.m in Sources */,
+				572DF8D2DE0C2CC9FA6C40DE072CF2C6 /* CAGradientLayer+Slide.swift in Sources */,
+				936DC7F33BC7DE3AD8874CD659D64EA7 /* Direction.swift in Sources */,
+				05AF491E0462211A40E05231BCB85884 /* GradientContainerView.swift in Sources */,
+				F5ABDE31D319DC818DBC80147CC52D4A /* GradientPoint.swift in Sources */,
+				81146C4D8775B1F7BDE8385195880EA8 /* GradientsOwner.swift in Sources */,
+				DFFDB9A1DEDF7920258035AA834EA54D /* GradientTransition.swift in Sources */,
+				6B014D7C2EE9073548DB7FFC9DD7DAC8 /* GradientView.swift in Sources */,
+				7AB1116E50FAAE8C97BEEF3CB4E2AAAE /* Skeleton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,80 +387,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24A18CE08916346AABC7EB933FDB1A0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D4044163064B080CE478914F1D675FA /* Pods-Skeleton_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Tests/Pods-Skeleton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Skeleton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3861F65693D0132E449AC24D148E7933 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 969234BE169F52C785933482A855A0DF /* Pods-Skeleton_Example.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Example/Pods-Skeleton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Skeleton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -500,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -508,9 +431,44 @@
 			};
 			name = Debug;
 		};
-		7B09E216FAB47493672044C76F4D3379 /* Release */ = {
+		224974D3669FC80C90D5CC04197D0192 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */;
+			baseConfigurationReference = F5D60BEF9CBB54AAAAB5531E0F0D9EFB /* Pods-Skeleton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Example/Pods-Skeleton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Skeleton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34B70073AA56F34E938F145D226A1E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C16FD855A4D439E5FB185F577AF24C /* Skeleton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -526,7 +484,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Skeleton/Skeleton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Skeleton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Skeleton/Skeleton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -540,7 +498,7 @@
 			};
 			name = Release;
 		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -572,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -580,7 +538,42 @@
 			};
 			name = Release;
 		};
-		C63C5C8ACAB9360DD4133C2DF525F4BB /* Debug */ = {
+		8ACD4FA4C3A91AD556900D1F94FB612E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4044163064B080CE478914F1D675FA /* Pods-Skeleton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Tests/Pods-Skeleton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Skeleton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC7354D6B18CED76115A5A2B6D0B2ECF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8710D75245569511C5A67402ADDC96AD /* Pods-Skeleton_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -597,7 +590,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Tests/Pods-Skeleton_Tests.modulemap";
@@ -615,16 +608,15 @@
 			};
 			name = Debug;
 		};
-		C8411ED1CCDC65A05F102A507F49FA34 /* Release */ = {
+		CDB46164465A5F3689C5FD017B694E42 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5D60BEF9CBB54AAAAB5531E0F0D9EFB /* Pods-Skeleton_Example.release.xcconfig */;
+			baseConfigurationReference = 969234BE169F52C785933482A855A0DF /* Pods-Skeleton_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -633,11 +625,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Example/Pods-Skeleton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -645,16 +637,16 @@
 				PRODUCT_NAME = Pods_Skeleton_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C891DF7EC6073E26FF9EE26D35BC9955 /* Debug */ = {
+		E3890F4B3C8F0AC4A57B7732E1A46E19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */;
+			baseConfigurationReference = 07C16FD855A4D439E5FB185F577AF24C /* Skeleton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -670,7 +662,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Skeleton/Skeleton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Skeleton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Skeleton/Skeleton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -691,8 +683,8 @@
 		0869398AD2966392C395DADA13CDA2F9 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C63C5C8ACAB9360DD4133C2DF525F4BB /* Debug */,
-				24A18CE08916346AABC7EB933FDB1A0E /* Release */,
+				BC7354D6B18CED76115A5A2B6D0B2ECF /* Debug */,
+				8ACD4FA4C3A91AD556900D1F94FB612E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -700,8 +692,8 @@
 		12A19D459C4C6FA1AF14804FAE2230CA /* Build configuration list for PBXNativeTarget "Skeleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C891DF7EC6073E26FF9EE26D35BC9955 /* Debug */,
-				7B09E216FAB47493672044C76F4D3379 /* Release */,
+				E3890F4B3C8F0AC4A57B7732E1A46E19 /* Debug */,
+				34B70073AA56F34E938F145D226A1E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -709,8 +701,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -718,8 +710,8 @@
 		E394E2FEA582E3DA295A0EDAC7713295 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3861F65693D0132E449AC24D148E7933 /* Debug */,
-				C8411ED1CCDC65A05F102A507F49FA34 /* Release */,
+				CDB46164465A5F3689C5FD017B694E42 /* Debug */,
+				224974D3669FC80C90D5CC04197D0192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

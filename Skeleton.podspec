@@ -24,9 +24,9 @@ An easy way to create sliding CAGradientLayer animations! Works great for creati
   s.homepage         = 'https://github.com/gonzalonunez/Skeleton'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gonzalo Nuñez' => 'hello@gonzalonunez.me' }
-  s.source           = { :git => 'https://github.com/gonzalonunez/Skeleton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DilyanaTodorova/Skeleton', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'Skeleton/**/*'
 
